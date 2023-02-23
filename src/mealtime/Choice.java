@@ -19,9 +19,7 @@ public class Choice extends JFrame {
 	private JPanel contentPane;
 	
     Mt_UserInfo userinfo = Mt_UserInfo.getUserInfo();
-	/**
-	 * Launch the application.
-	 */
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -35,9 +33,7 @@ public class Choice extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public Choice() {
 		System.out.println(userinfo.getMem_id());
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

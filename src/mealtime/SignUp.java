@@ -28,10 +28,6 @@ public class SignUp extends JFrame {
 	private JTextField textFieldPHONE;
 	
 	
-	
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -45,9 +41,7 @@ public class SignUp extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public SignUp() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 541, 373);
@@ -56,31 +50,31 @@ public class SignUp extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblid = new JLabel("\uC544\uC774\uB514");
+		JLabel lblid = new JLabel("아이디");
 		lblid.setBounds(26, 41, 57, 15);
 		contentPane.add(lblid);
 		
-		JLabel lblPW = new JLabel("\uBE44\uBC00\uBC88\uD638");
+		JLabel lblPW = new JLabel("비밀번호");
 		lblPW.setBounds(26, 66, 57, 15);
 		contentPane.add(lblPW);
 		
-		JLabel lblPwOk = new JLabel("\uBE44\uBC00\uBC88\uD638 \uD655\uC778");
+		JLabel lblPwOk = new JLabel("비밀번호확인");
 		lblPwOk.setBounds(26, 91, 93, 15);
 		contentPane.add(lblPwOk);
 		
-		JLabel lblbirth = new JLabel("\uC0DD\uC77C");
+		JLabel lblbirth = new JLabel("생일");
 		lblbirth.setBounds(26, 120, 57, 15);
 		contentPane.add(lblbirth);
 		
-		JLabel lblname = new JLabel("\uC774\uB984");
+		JLabel lblname = new JLabel("이름");
 		lblname.setBounds(26, 146, 57, 15);
 		contentPane.add(lblname);
 		
-		JLabel lblEmail = new JLabel("\uC774\uBA54\uC77C");
+		JLabel lblEmail = new JLabel("이메일");
 		lblEmail.setBounds(26, 168, 57, 15);
 		contentPane.add(lblEmail);
 		
-		JLabel lblPhone = new JLabel("\uD578\uB4DC\uD3F0\uBC88\uD638");
+		JLabel lblPhone = new JLabel("핸드폰번호");
 		lblPhone.setBounds(26, 197, 93, 15);
 		contentPane.add(lblPhone);
 		
@@ -119,14 +113,20 @@ public class SignUp extends JFrame {
 		contentPane.add(textFieldPHONE);
 		textFieldPHONE.setColumns(10);
 		
-		JButton btnSignUp = new JButton("\uD68C\uC6D0\uAC00\uC785");
+		JButton btnSignUp = new JButton("회원가입");
 		btnSignUp.setBounds(203, 254, 97, 23);
 		contentPane.add(btnSignUp);
 		
+		JButton btnID = new JButton("아이디확인");
+		btnID.setBounds(257, 37, 97, 23);
+		contentPane.add(btnID);
+		
 		setVisible(true);
 		
-		btnSignUp.addMouseListener(new MouseAdapter() {
-
+		
+		//회원가입 
+		btnSignUp.addMouseListener(new MouseAdapter() {  
+			
 			@Override
 			public void mouseClicked(MouseEvent e) {
 			MtDAO mtdao;
@@ -158,9 +158,9 @@ public class SignUp extends JFrame {
 		});
 
 		
-		JButton btnID = new JButton("\uC544\uC774\uB514 \uD655\uC778");
+		//아이디 중복체크
 		btnID.addMouseListener(new MouseAdapter() {
-
+			
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				
@@ -181,7 +181,6 @@ public class SignUp extends JFrame {
 				}	
 			}
 		});
-		btnID.setBounds(257, 37, 97, 23);
-		contentPane.add(btnID);
+		
 	}
 }

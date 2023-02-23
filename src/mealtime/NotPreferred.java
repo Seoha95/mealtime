@@ -22,9 +22,6 @@ public class NotPreferred extends JFrame {
 
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -38,9 +35,7 @@ public class NotPreferred extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public NotPreferred() {
 
 		ButtonGroup RNN = new ButtonGroup();
@@ -56,18 +51,18 @@ public class NotPreferred extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lbltitle = new JLabel("\uC624\uB298 \uC548\uB561\uAE30\uB294 \uC74C\uC2DD\uB958");
+		JLabel lbltitle = new JLabel("오늘안땡기는음식류");
 		lbltitle.setFont(new Font("굴림", Font.BOLD, 20));
 		lbltitle.setBounds(168, 31, 205, 47);
 		contentPane.add(lbltitle);
 		
-		JRadioButton ckRNN1 = new JRadioButton("\uBA74");
+		JRadioButton ckRNN1 = new JRadioButton("면");
 		ckRNN1.setSelected(true);
 		ckRNN1.setBounds(149, 137, 115, 23);
 		contentPane.add(ckRNN1);
 		RNN.add(ckRNN1);
 		
-		JRadioButton ckRNN2 = new JRadioButton("\uBC25");
+		JRadioButton ckRNN2 = new JRadioButton("밥");
 		ckRNN2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -77,37 +72,37 @@ public class NotPreferred extends JFrame {
 		contentPane.add(ckRNN2);
 		RNN.add(ckRNN2);
 		
-		JCheckBox ckHot1 = new JCheckBox("\uB9E4\uC6B4\uAC70");
+		JCheckBox ckHot1 = new JCheckBox("매운거");
 		ckHot1.setSelected(true);
 		ckHot1.setBounds(149, 162, 115, 23);
 		contentPane.add(ckHot1);
 		HOT.add(ckHot1);
-		JCheckBox ckHot2 = new JCheckBox("\uC548 \uB9E4\uC6B4\uAC70");
+		JCheckBox ckHot2 = new JCheckBox("안매운거");
 		ckHot2.setBounds(268, 162, 115, 23);
 		contentPane.add(ckHot2);
 		HOT.add(ckHot2);
 		
 		
-		JRadioButton Cool1 = new JRadioButton("\uCC28\uAC00\uC6B4\uAC70");
+		JRadioButton Cool1 = new JRadioButton("차가운거");
 		Cool1.setSelected(true);
 		Cool1.setBounds(149, 183, 115, 23);
 		contentPane.add(Cool1);
 		COL.add(Cool1);
-		JRadioButton Cool2 = new JRadioButton("\uB728\uAC70\uC6B4\uAC70");
+		JRadioButton Cool2 = new JRadioButton("뜨거운거");
 		Cool2.setBounds(268, 183, 115, 23);
 		contentPane.add(Cool2);
 		COL.add(Cool2);
-		JCheckBox Met1 = new JCheckBox("\uC721\uB958");
+		JCheckBox Met1 = new JCheckBox("육류");
 		Met1.setSelected(true);
 		Met1.setBounds(149, 208, 115, 23);
 		contentPane.add(Met1);
 		MET.add(Met1);
-		JCheckBox Met2 = new JCheckBox("\uD574\uC0B0\uBB3C");
+		JCheckBox Met2 = new JCheckBox("해산물");
 		Met2.setBounds(268, 208, 115, 23);
 		contentPane.add(Met2);
 		MET.add(Met2);
 		
-		JButton btnNewButton = new JButton("\uB2E4\uC74C");
+		JButton btnNewButton = new JButton("다음");
 		btnNewButton.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

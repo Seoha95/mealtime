@@ -26,9 +26,7 @@ public class Login extends JFrame {
 	private JTextField textPw;
 	
 	Mt_UserInfo userinfo = Mt_UserInfo.getUserInfo();
-	/**
-	 * Launch the application.
-	 */
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -42,11 +40,6 @@ public class Login extends JFrame {
 		});
 	}
 	
-
-
-	/**
-	 * Create the frame.
-	 */
 	public Login() {
 		setTitle("밀타임");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -56,9 +49,17 @@ public class Login extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		
-		
 		JButton btnLoing = new JButton("로그인");
+		btnLoing.setFont(new Font("굴림", Font.BOLD, 12));
+		btnLoing.setBounds(89, 182, 104, 34);
+		contentPane.add(btnLoing);
+		contentPane.setName("");
+		
+		JButton btnSignUp = new JButton("회원가입");
+		btnSignUp.setFont(new Font("굴림", Font.BOLD, 12));
+		btnSignUp.setBounds(230, 182, 104, 34);
+		contentPane.add(btnSignUp);
+			
 		btnLoing.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -95,14 +96,10 @@ public class Login extends JFrame {
 			}
 			});
 
-		btnLoing.setFont(new Font("굴림", Font.BOLD, 12));
 		btnLoing.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		btnLoing.setBounds(89, 182, 104, 34);
-		contentPane.add(btnLoing);
-		contentPane.setName("");
 		
 		textID = new JTextField();
 		textID.setBounds(159, 49, 143, 21);
@@ -110,9 +107,9 @@ public class Login extends JFrame {
 		textID.setColumns(10);
 		
 		textPw = new JTextField();
-		textPw.setColumns(10);
 		textPw.setBounds(159, 84, 143, 21);
 		contentPane.add(textPw);
+		textPw.setColumns(10);
 		
 		JLabel lblNewLabel = new JLabel("ID");
 		lblNewLabel.setBounds(45, 52, 57, 15);
@@ -122,7 +119,6 @@ public class Login extends JFrame {
 		lblPassword.setBounds(45, 87, 78, 15);
 		contentPane.add(lblPassword);
 		
-		JButton btnSignUp = new JButton("회원가입");
 		btnSignUp.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -139,8 +135,5 @@ public class Login extends JFrame {
 				
 			}
 		});
-		btnSignUp.setFont(new Font("굴림", Font.BOLD, 12));
-		btnSignUp.setBounds(230, 182, 104, 34);
-		contentPane.add(btnSignUp);
 	}
 }

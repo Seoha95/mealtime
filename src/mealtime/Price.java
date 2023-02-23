@@ -20,9 +20,7 @@ public class Price extends JFrame {
 
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -36,9 +34,7 @@ public class Price extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public Price() {
 		Mt_UserInfo userinfo = Mt_UserInfo.getUserInfo();
 		ButtonGroup price = new ButtonGroup();
@@ -79,6 +75,8 @@ public class Price extends JFrame {
 		contentPane.add(lblNewLabel);
 		
 		JButton btnCheck = new JButton("확인");
+		
+		//가격대 선택하기
 		btnCheck.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {

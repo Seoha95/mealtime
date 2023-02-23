@@ -28,15 +28,7 @@ public class LastTimeMenu extends JFrame {
 	private String date3;
 	private JPanel contentPane;
 	Mt_UserInfo userinfo = Mt_UserInfo.getUserInfo();
-	//private String[][]datas = new String[0][3];
-	//private String[] title = {"날짜", "음식이름","가게정보"}; //필드명(열제목) 지정
-	//private DefaultTableModel model = new DefaultTableModel(datas,title);
-	//private JTable table = new JTable(model);
-	//private Container c = getContentPane(); // 내용 들어갈 판
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -50,10 +42,6 @@ public class LastTimeMenu extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-
-	 */
 		
 	public LastTimeMenu(){
 		
@@ -64,7 +52,7 @@ public class LastTimeMenu extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("\uC9C0\uB09C \uBA54\uB274 \uBCF4\uAE30 ");
+		JLabel lblNewLabel = new JLabel("지난메뉴보기");
 		lblNewLabel.setFont(new Font("굴림", Font.BOLD, 24));
 		lblNewLabel.setBounds(172, 10, 212, 44);
 		contentPane.add(lblNewLabel);
@@ -139,6 +127,12 @@ public class LastTimeMenu extends JFrame {
 			contentPane.add(Label1);
 			
 			JButton btn1 = new JButton("삭제");
+			btn1.setBounds(399, 99, 97, 23);
+			contentPane.add(btn1);
+			
+			
+			
+			
 			btn1.addActionListener(new ActionListener() {
 				
 				@Override
@@ -158,8 +152,6 @@ public class LastTimeMenu extends JFrame {
 				}
 			});
 			
-			btn1.setBounds(399, 99, 97, 23);
-			contentPane.add(btn1);
 		
 		}else if(curL.size() == 2) {
 			JButton btnMenu = new JButton("메뉴추천");
@@ -186,6 +178,14 @@ public class LastTimeMenu extends JFrame {
 			contentPane.add(Label2);
 			
 			JButton btn1 = new JButton("삭제");
+			btn1.setBounds(399, 99, 97, 23);
+			contentPane.add(btn1);
+			
+			JButton btn2 = new JButton("삭제");
+			btn2.setBounds(396, 132, 97, 23);
+			contentPane.add(btn2);
+			
+			
 			btn1.addActionListener(new ActionListener() {
 				
 				@Override
@@ -205,10 +205,6 @@ public class LastTimeMenu extends JFrame {
 				}
 			});
 			
-			btn1.setBounds(399, 99, 97, 23);
-			contentPane.add(btn1);
-			
-			JButton btn2 = new JButton("\uC0AD\uC81C");
 			btn2.addActionListener(new ActionListener() {
 				
 				@Override
@@ -228,8 +224,6 @@ public class LastTimeMenu extends JFrame {
 				}
 			});
 			
-			btn2.setBounds(396, 132, 97, 23);
-			contentPane.add(btn2);
 			
 		}else {
 			JButton btnMenu = new JButton("메뉴추천");
@@ -260,6 +254,17 @@ public class LastTimeMenu extends JFrame {
 			contentPane.add(Label3);
 			
 			JButton btn1 = new JButton("삭제");
+			btn1.setBounds(399, 99, 97, 23);
+			contentPane.add(btn1);
+			
+			JButton btn2 = new JButton("삭제");
+			btn2.setBounds(396, 132, 97, 23);
+			contentPane.add(btn2);
+			
+			JButton btn3 = new JButton("삭제");
+			btn3.setBounds(399, 173, 97, 23);
+			contentPane.add(btn3);
+			
 			btn1.addActionListener(new ActionListener() {
 				
 				@Override
@@ -279,10 +284,6 @@ public class LastTimeMenu extends JFrame {
 				}
 			});
 			
-			btn1.setBounds(399, 99, 97, 23);
-			contentPane.add(btn1);
-			
-			JButton btn2 = new JButton("\uC0AD\uC81C");
 			btn2.addActionListener(new ActionListener() {
 				
 				@Override
@@ -302,10 +303,8 @@ public class LastTimeMenu extends JFrame {
 				}
 			});
 			
-			btn2.setBounds(396, 132, 97, 23);
-			contentPane.add(btn2);
 			
-			JButton btn3 = new JButton("\uC0AD\uC81C");
+			
 			btn3.addActionListener(new ActionListener() {
 					@Override
 					public void actionPerformed(ActionEvent e) {
@@ -325,13 +324,6 @@ public class LastTimeMenu extends JFrame {
 					
 				
 			});
-			btn3.setBounds(399, 173, 97, 23);
-			contentPane.add(btn3);
 		}
-		
-		
-		//table = new JTable();
-		//table.setBounds(89, 79, 403, 135);
-		//contentPane.add(table);
 	}
 }

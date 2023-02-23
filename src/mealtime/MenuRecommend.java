@@ -19,9 +19,7 @@ public class MenuRecommend extends JFrame {
 
 private JPanel contentPane;
 
-/**
-* Launch the application.
-*/
+
 public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 				public void run() {
@@ -35,9 +33,7 @@ public static void main(String[] args) {
 				});
 }
 
-/**
-* Create the frame.
-*/
+
 		public MenuRecommend() {
 					Mt_UserInfo userinfo = Mt_UserInfo.getUserInfo();
 					setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

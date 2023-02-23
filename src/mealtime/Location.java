@@ -21,9 +21,6 @@ public class Location extends JFrame {
 
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -37,9 +34,6 @@ public class Location extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
 	public Location() {
 		Mt_UserInfo userinfo = Mt_UserInfo.getUserInfo();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -49,7 +43,7 @@ public class Location extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton btnNewButton = new JButton("\uB178\uB7B8\uC9C4 1\uB3D9");
+		JButton btnNewButton = new JButton("노량진1동");
 		btnNewButton.setBounds(568, 112, 97, 23);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -59,7 +53,7 @@ public class Location extends JFrame {
 		});
 		contentPane.add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("\uB178\uB7C9\uC9C4 2\uB3D9");
+		JButton btnNewButton_1 = new JButton("노량진2동");
 		btnNewButton_1.setBounds(568, 210, 97, 23);
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -69,7 +63,10 @@ public class Location extends JFrame {
 		});
 		contentPane.add(btnNewButton_1);
 		
-		JButton btnNewButton_1_1 = new JButton("\uD655\uC778");
+		JButton btnNewButton_1_1 = new JButton("확인");
+		btnNewButton_1_1.setBounds(734, 414, 97, 23);
+		contentPane.add(btnNewButton_1_1);
+		
 		btnNewButton_1_1.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -87,8 +84,6 @@ public class Location extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		btnNewButton_1_1.setBounds(734, 414, 97, 23);
-		contentPane.add(btnNewButton_1_1);
 		
 	      JLabel lblNewLabel = new JLabel("");
 	      lblNewLabel.setIcon(new ImageIcon(Location.class.getResource("/mealtime/map.PNG")));

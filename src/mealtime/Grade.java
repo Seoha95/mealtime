@@ -30,9 +30,6 @@ public class Grade extends JFrame {
 	private AbstractButton rdbtn4;
 	private AbstractButton rdbtn5;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -46,9 +43,7 @@ public class Grade extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public Grade() {
 		
 		Mt_UserInfo uesrinfo = Mt_UserInfo.getUserInfo(); 
@@ -156,7 +151,7 @@ public class Grade extends JFrame {
 		contentPane.add(lblTitle);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon(Grade.class.getResource("/mealtime/\uB9C8\uB124\uD0A4\uB124\uCF54.jpg")));
+		lblNewLabel.setIcon(new ImageIcon(Grade.class.getResource("/mealtime/마네키네코.jpg")));
 		lblNewLabel.setBounds(119, 61, 195, 125);
 		contentPane.add(lblNewLabel);
 	}
