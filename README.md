@@ -17,4 +17,4 @@
 </br>
 
 ### 3.ERD
-
+<img src="F:\팀플\1번째 플젝\ERD.png" width="100" height="100">
