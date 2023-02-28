@@ -29,7 +29,7 @@
    
 <details>
 <summary>핵심기능설명펼치기</summary>
-<img src="./프로그램구조.png" width="500" height="500">
+<img src="./프로그램구조.PNG" width="500" height="500">
 
 
 
