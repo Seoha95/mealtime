@@ -17,7 +17,7 @@
 </br>
 
 ### 3.ERD
-<img src="./ERD.PNG" width="500" height="500">
+<img src="./erd.PNG" width="500" height="500">
 
 </br>
 
