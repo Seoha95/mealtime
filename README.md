@@ -17,7 +17,7 @@
 </br>
 
 ### 3.ERD
-<img src="./ERD.png" width="500" height="500">
+<img src="mealtime/프로그램구조.PNG" width="500" height="500">
 
 </br>
 
