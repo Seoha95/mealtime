@@ -28,10 +28,10 @@
 그리고 조회된 음식점을 이용 후에 평점을 매길 수 있습니다.   
    
 <details>
-<summary>접기/펼치기 버튼</summary>
+<summary>핵심기능설명펼치기</summary>
 <div markdown="1">
 
-안에 있다   
+<img src="./프로그램구조.png" width="500" height="500">
 
 </div>
 </details>   
