@@ -37,10 +37,31 @@
 <img src="./프로그램구조.PNG" width="500" height="500">
    
 #### 4-2. 사용자 입력   
-   
+[코드보기](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Login.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)  
 <details>   
-<summary>핵심기능설명펼치기</summary>  
-   
+<summary>코드보기</summary>  
+      
+```
+//   
+setTitle("밀타임");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton btnLoing = new JButton("로그인");
+		btnLoing.setFont(new Font("굴림", Font.BOLD, 12));
+		btnLoing.setBounds(89, 182, 104, 34);
+		contentPane.add(btnLoing);
+		contentPane.setName("");
+		
+		JButton btnSignUp = new JButton("회원가입");
+		btnSignUp.setFont(new Font("굴림", Font.BOLD, 12));
+		btnSignUp.setBounds(230, 182, 104, 34);
+		contentPane.add(btnSignUp);
+```   
 </details> 
 </details>   
 
