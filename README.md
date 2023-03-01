@@ -37,7 +37,13 @@
 <img src="./프로그램구조.PNG" width="500" height="500">
    
 #### 4-2. 사용자 입력   
-[코드보기](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Login.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)  
+* 로그인 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Login.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)   
+   * 로그인시에 아이디와 비밀번호를 사용자가 입력해야합니다.      
+   * 아이디나 비밀번호가 비어있을 경우 안내문구가 나타납니다.   
+* 회원가입 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/SignUp.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)    
+   * 회원가입시에 아이디, 비밀번호, 비밀번호확인, 생일, 이름, 이메일, 핸드폰번호를 입력해야합니다.    * 비밀번호와 비밀번호확인 텍스트필드 내용이 같을 때 회원가입을 할 수 있도록 했습니다.   
+
+
 <details>   
 <summary>코드보기</summary>  
       
