@@ -77,7 +77,7 @@
 </details>    
 
 <details>   
-<summary>개선된 </summary>  
+<summary>개선된 코드</summary>  
       
 ```
 
