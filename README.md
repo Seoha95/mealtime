@@ -51,44 +51,38 @@
     * 면과 밥, 매운 음식과 안 매운 음식, 차가운 음식과 뜨거운 음식 중에서 선택을 할 수 있습니다.   
  * 가격대 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Price.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)   
     * 가격대 별로 사용자가 선택할 수 있습니다.     
+ * 지역 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Location.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)   
+    * 원하는 지역을 사용자가 선택할 수 있습니다.     
  * 사용자가 평점체크 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Grade.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback) 
     * 사용자가 추천 음식점 이용 후 평점을 매길 수 있습니다.  
       
 #### 4-4. 랜덤 음식 추천
- * 사용자가 선택사항 체크 후 랜덤 음식 추천 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/TodayMenu.java#:~:text=btnCheck.addMouseListener,%7D)%3B)
+ * 사용자가 선택사항 체크 후 랜덤 음식 추천 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/TodayMenu.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)
     * 사용자가 선택한 조건 안에서 랜덤으로 메뉴 추천을 해줍니다.     
-
-  
-<details>   
-<summary>코드보기</summary>  
-      
-```
-//   
-setTitle("밀타임");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
-		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		setContentPane(contentPane);
-		contentPane.setLayout(null);
-		
-		JButton btnLoing = new JButton("로그인");
-		btnLoing.setFont(new Font("굴림", Font.BOLD, 12));
-		btnLoing.setBounds(89, 182, 104, 34);
-		contentPane.add(btnLoing);
-		contentPane.setName("");
-		
-		JButton btnSignUp = new JButton("회원가입");
-		btnSignUp.setFont(new Font("굴림", Font.BOLD, 12));
-		btnSignUp.setBounds(230, 182, 104, 34);
-		contentPane.add(btnSignUp);
-```   
-</details> 
 </details>   
 
 </br>
 
-### 5.핵심 트러블 슈팅 
+### 5.핵심 트러블 슈팅   
+   
+#### 5-1 ~대한 문제 
+문제에 대한 내용쓰기
+
+<details>   
+<summary>기존코드</summary>  
+      
+```
+
+```   
+</details>    
+
+<details>   
+<summary>개선된 </summary>  
+      
+```
+
+```   
+</details>    
 
 ### 6. 느낀점
 
