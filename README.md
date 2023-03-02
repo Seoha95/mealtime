@@ -65,14 +65,20 @@
 
 ### 5.핵심 트러블 슈팅   
    
-#### 5-1 ~대한 문제 
-문제에 대한 내용쓰기
+#### 5-1 이전에 먹은 음식 데이터를 띄우는 방식의 문제   
+이전에 먹은 음식 데이터를 띄울 때 일반적으로 많이 사용하는 JTable을 사용해서 표형태로 만드는 것이 아닌      
+틀 없이 데이터를 띄우는 방식에 대한 고민을 통해 JLabel 안에 데이터를 띄우는 방식으로 코드를 수정했습니다.      
 
 <details>   
 <summary>기존코드</summary>  
       
 ```
-
+String header[] = {"날짜", "가게이름", "메뉴이름"} 
+String data[][] = {
+                  {"2022-05-28", "순대집", "순대볶음"}
+                  {"2022-03-28", "막창집", "막창"}
+                  }
+                   JTable table = new JTable(data, header);
 ```   
 </details>    
 
@@ -80,11 +86,14 @@
 <summary>개선된 코드</summary>  
       
 ```
-
+JLabel Label1 = new JLabel(curL.get(0).getCurt_date()+"    "+curL.get(0).getG_name()+"    "+curL.get(0).getMu_name());
+Label1.setBounds(63, 97, 319, 27);
+contentPane.add(Label1);
 ```   
-</details>    
-
-### 6. 느낀점
-
-
+</details>       
+   
+### 6. 느낀점   
+    
+    
+   
 
