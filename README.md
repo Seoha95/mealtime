@@ -5,7 +5,7 @@
 </br>
 
 ### 1.제작기간&참여 인원
-* 2022.9.13 ~ 2022.9.19   
+* 2022.9.13 ~ 2022.9.19(4명)   
 * 팀프로젝트
 
 </br>
@@ -37,7 +37,7 @@
 <img src="./프로그램구조.PNG" width="500" height="500">
    
 #### 4-2. 사용자 입력   
-* 로그인 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Login.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)   
+* 로그인 📍[코드확인](https://github.com/Seoha95/mealtime/blob/e3e765cb8c96f54f6764d4a201913b1f79a55402/src/mealtime/Login.java#L68-L96)   
    * 로그인시에 아이디와 비밀번호를 사용자가 입력해야합니다.      
    * 아이디나 비밀번호가 비어있을 경우 안내문구가 나타냅니다.   
 * 회원가입 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/SignUp.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)    
