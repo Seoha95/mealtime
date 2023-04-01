@@ -40,24 +40,24 @@
 * 로그인 📍[코드확인](https://github.com/Seoha95/mealtime/blob/e3e765cb8c96f54f6764d4a201913b1f79a55402/src/mealtime/Login.java#L68-L96)   
    * 로그인시에 아이디와 비밀번호를 사용자가 입력해야합니다.      
    * 아이디나 비밀번호가 비어있을 경우 안내문구가 나타냅니다.   
-* 회원가입 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/SignUp.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)    
+* 회원가입 📍[코드확인](https://github.com/Seoha95/mealtime/blob/b9a16feb89ff182b8a57e24e79e506467e1106a4/src/mealtime/SignUp.java#L127-L158)    
    * 회원가입시에 아이디, 비밀번호, 비밀번호확인, 생일, 이름, 이메일, 핸드폰번호를 입력해야합니다.    
    * 비밀번호와 비밀번호확인 텍스트필드 내용이 같을 때 회원가입을 할 수 있도록 했습니다.   
    
 #### 4-3. 사용자 선택
- * 음식종류 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/MenuRecommend.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)   
+ * 음식종류 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/b9a16feb89ff182b8a57e24e79e506467e1106a4/src/mealtime/MenuRecommend.java#L62-L115)   
     * 한식, 중식, 양식, 일식 중에서 사용자가 음식종류를 선택할 수 있습니다.    
- * 오늘 먹고 싶지 않은 음식류 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/NotPreferred.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)
+ * 오늘 먹고 싶지 않은 음식류 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/b9a16feb89ff182b8a57e24e79e506467e1106a4/src/mealtime/NotPreferred.java#L106-L137)
     * 면과 밥, 매운 음식과 안 매운 음식, 차가운 음식과 뜨거운 음식 중에서 선택을 할 수 있습니다.   
- * 가격대 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Price.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)   
+ * 가격대 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/b9a16feb89ff182b8a57e24e79e506467e1106a4/src/mealtime/Price.java#L79-L98)   
     * 가격대 별로 사용자가 선택할 수 있습니다.     
- * 지역 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Location.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)   
+ * 지역 선택 📍[코드확인](https://github.com/Seoha95/mealtime/blob/b9a16feb89ff182b8a57e24e79e506467e1106a4/src/mealtime/Location.java#L46-L63)   
     * 원하는 지역을 사용자가 선택할 수 있습니다.     
- * 사용자가 평점체크 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/Grade.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback) 
+ * 사용자가 평점체크 📍[코드확인](https://github.com/Seoha95/mealtime/blob/b9a16feb89ff182b8a57e24e79e506467e1106a4/src/mealtime/Grade.java#L107-L141) 
     * 사용자가 추천 음식점 이용 후 평점을 매길 수 있습니다.  
       
 #### 4-4. 랜덤 음식 추천
- * 사용자가 선택사항 체크 후 랜덤 음식 추천 📍[코드확인](https://github.com/Seoha95/mealtime/blob/main/src/mealtime/TodayMenu.java#:~:text=Blame-,package%20mealtime%3B,%7D,-Give%20feedback)
+ * 사용자가 선택사항 체크 후 랜덤 음식 추천 📍[코드확인](https://github.com/Seoha95/mealtime/blob/b9a16feb89ff182b8a57e24e79e506467e1106a4/src/mealtime/TodayMenu.java#L55-L74)
     * 사용자가 선택한 조건 안에서 랜덤으로 메뉴 추천을 해줍니다.     
 </details>   
 
