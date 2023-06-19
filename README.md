@@ -42,7 +42,7 @@ https://github.com/Seoha95/mealtime/assets/107228582/f8ac9867-f74c-451e-9a2b-998
    
 <img src="./프로그램구조.PNG" width="500" height="500">
    
-#### 5-2. 사용자 입력   
+#### 5-2. 사용자 입력     
 * 로그인 기능 📍[코드확인](https://github.com/Seoha95/mealtime/blob/e3e765cb8c96f54f6764d4a201913b1f79a55402/src/mealtime/Login.java#L68-L96)   
    * 사용자 인증 : 로그인 페이지를 통해 사용자의 아이디와 비밀번호를 입력받아 인증합니다.       
    * 안내문구 표시 : 필수 필드가 비어있을 경우, 사용자에게 안내문구를 표시하여 필수 정보를 입력하도록 유도합니다.      
